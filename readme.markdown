@@ -28,9 +28,10 @@ Have you published your own website by forking { Personal } and now you want to 
   * Disqus comments
   * Facebook, Twitter and Reddit share buttons
   * RSS feed
+* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 * Protection from Email harvesting
+* Forcing of https protocol
 * Cool (anti-procrastinating) 404 page
-* Travis CI integration with htmlproofer
 
 ## { Personal } à la JekyllNow
 
@@ -66,7 +67,9 @@ Check it live [here](https://panossakkos.github.io/personal-jekyll-theme/blog/in
 
 ## How to run locally
 
-jekyll serve --watch --baseurl ""
+````
+./scripts/serve
+````
 
 ## Wiki
 Don't forget to list your { Personal } blog in the [wiki](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) 😉
