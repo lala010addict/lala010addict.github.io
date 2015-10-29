@@ -396,14 +396,13 @@ body {
 
 
 code, pre {
-    font-family: Menlo, Monaco, "Courier New", monospace;
-    background-color: #f9f9f9;
+  
     text-align: left;
 }
 
 code {
     padding: .25em .5em;
-    font-size: 85%;
+    font-size: 90%;
     color: #bf616a;
     border-radius: 3px;
      text-align: left;
@@ -411,7 +410,7 @@ code {
 
 pre {
     display: block;
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.4;
     white-space: pre;
     word-break: break-all;
@@ -428,14 +427,4 @@ pre code {
      text-align: left;
 }
 
-.highlight {
-    margin-bottom: 1rem;
-    border-radius: 4px;
-     text-align: left;
-}
-
-.highlight pre {
-    margin-bottom: 0;
-     text-align: left;
-}
 
