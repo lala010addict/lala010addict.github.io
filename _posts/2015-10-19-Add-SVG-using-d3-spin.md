@@ -35,6 +35,7 @@ return (5+Math.random() * 250);})
 
 Now we should have something looks like this:
 six pink ellipses placed that random positions.
+
 ![](/blogimgs/Screen-Shot-2015-10-18-at-4-23-53-PM.png)
 
 Let's get them to rotate:
@@ -50,8 +51,9 @@ I found a helpful [article](https://css-tricks.com/guide-svg-animations-smil/) t
 <p data-height="268" data-theme-id="0" data-slug-hash="pjdOMa" data-default-tab="result" data-user="lala010addict" class='codepen'> <a href='http://codepen.io/lala010addict/pen/pjdOMa/'></a>  <a href='http://codepen.io/lala010addict'></a>  <a href='http://codepen.io'></a></p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-... but I did not get it to work on multiple SVG elements at the same time. After hours of research, I found GSAP: 
->It animates anything JavaScript can touch (CSS properties, canvas library objects, SVG, generic objects, whatever) and it solves lots of browser inconsistencies, all with blazing speed (up to 20x faster than jQuery).
+... but I did not get it to work on multiple SVG elements at the same time. After hours of research, I found GSAP:
+
+<blockquote>It animates anything JavaScript can touch (CSS properties, canvas library objects, SVG, generic objects, whatever) and it solves lots of browser inconsistencies, all with blazing speed (up to 20x faster than jQuery).</blockquote>
 
 to make them rotate:
 
