@@ -13,10 +13,10 @@ Before we get to the rotation part, let's create some SVG shapes using D3.js:
 
 Creating a board to hold my SVG elements:
 <pre><code>var board = d3.select('body')
-.append('svg')
-.attr('height', 300)
-.attr('width', 400)
-.style('background-color', 'black')
+               .append('svg')
+               .attr('height', 300)
+               .attr('width', 400)
+               .style('background-color', 'black')
 </code></pre>
 
 Creating six ellipses:
