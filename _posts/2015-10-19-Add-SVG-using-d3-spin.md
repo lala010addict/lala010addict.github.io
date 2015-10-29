@@ -35,13 +35,13 @@ return (5+Math.random() * 250);})
 
 Now we should have something looks like this:
 six pink ellipses placed that random positions.
-![](/imgs/Screen-Shot-2015-10-18-at-4-23-53-PM.png)
+![](/blogimgs/Screen-Shot-2015-10-18-at-4-23-53-PM.png)
 
 Let's get them to rotate:
 
 SVG has some very easy to use <a href ='https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform'>animations</a> such as rotation, but however it rotates in in circles around a point that's at the top left corner of the SVG canvas if you don't specify the center to be the center of the SVG canvas. 
 
-![](/imgs/a.jpg)
+![](/blogimgs/a.jpg)
 
 I found a helpful [article](https://css-tricks.com/guide-svg-animations-smil/) that teaches how to set the center of the rotation. 
 
