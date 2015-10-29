@@ -12,7 +12,7 @@ I was making a game using D3.js to add SVG elements and I needed to make multipl
 Before we get to the rotation part, let's create some SVG shapes using D3.js:
 
 Creating a board to hold my SVG elements:
-<pre><code>var board = d3.select('body')
+<pre style="text-align: left"><code>var board = d3.select('body')
 .append('svg')
 .attr('height', 300)
 .attr('width', 400)
@@ -20,7 +20,7 @@ Creating a board to hold my SVG elements:
 </code></pre>
 
 Creating six ellipses:
-<pre><code>var elli = board.selectAll('.elli')
+<pre style="text-align: left"><code>var elli = board.selectAll('.elli')
 .data(d3.range(6))                  // creating six
 .enter()
 .append('ellipse')                  //creating ellipses
@@ -57,7 +57,7 @@ I found a helpful [article](https://css-tricks.com/guide-svg-animations-smil/) t
 
 to make them rotate:
 
-<pre><code>function transformOriginRotation() {
+<pre style="text-align: left"><code>function transformOriginRotation() {
 tween.seek(0).kill();                  //reset
 tween = TweenLite.to(ell, 1, {
 rotation: 360,
