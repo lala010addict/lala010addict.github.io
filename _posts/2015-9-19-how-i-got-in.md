@@ -5,6 +5,7 @@ quote: "The key to success? Grit - Angela Lee Duckworth"
 image: false
 video: false
 comments: true
+tags: [ 'Hack Reactor' ]
 ---
 
 After my interview with Hack Reactor, I was so anxious while waiting to hear back.  I added HR to my VIP email list, so I could get a notification as soon I receive an email from them. I turned my phone on as soon as my flight landed in Dallas, TX this Tuesday September 15th . The email notification popped up and it was the acceptance email from Hack Reactor. OMFG, I got in!! I couldn’t believe my eyes. Not going to lie, I shed a few tears because I wanted this so bad. 
