@@ -70,8 +70,7 @@ function transformOriginRotation() {
   tweenCode.innerHTML = 'TweenLite.to(".elli", 1, {rotation:360, transformOrigin:"50% 50%"});'
 };
 setInterval(transformOriginRotation, 600);
-
-<code></pre>
+</code></pre>
 
 taaaaadaaaaa... there we have it! Rotating ellipses!! Please click on 'edit on codepen' to see the animation. 
 
