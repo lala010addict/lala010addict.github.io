@@ -20,17 +20,20 @@ Creating a board to hold my SVG elements:
 </code></pre>
 
 Creating six ellipses:
-<pre><code>var elli = board.selectAll('.elli')
-.data(d3.range(6))                  // creating six
-.enter()
-.append('ellipse')                  //creating ellipses
-.attr('rx', 5)                      //height
-.attr('ry', 14)                     //width
-.attr('cx', function() {            //place at random positions
-return (Math.random() * 300);})
-.attr('cy', function() {
-return (5+Math.random() * 250);})
-.attr('fill', 'deepPink');          //make them pink
+<pre><code>
+var elli = board.selectAll('.elli')
+  .data(d3.range(6)) // creating six
+  .enter()
+  .append('ellipse') //creating ellipses
+  .attr('rx', 5) //height
+  .attr('ry', 14) //width
+  .attr('cx', function() { //place at random positions
+    return (Math.random() * 300);
+  })
+  .attr('cy', function() {
+    return (5 + Math.random() * 250);
+  })
+  .attr('fill', 'deepPink'); //make them pink
 </code></pre>
 
 Now we should have something looks like this:
@@ -57,15 +60,18 @@ I found a helpful [article](https://css-tricks.com/guide-svg-animations-smil/) t
 
 to make them rotate:
 
-<pre><code>function transformOriginRotation() {
-tween.seek(0).kill();                  //reset
-tween = TweenLite.to(ell, 1, {
-rotation: 360,
-transformOrigin: "50% 50%"           //set the center   
-});
-tweenCode.innerHTML = 'TweenLite.to(".elli", 1, {rotation:360, transformOrigin:"50% 50%"});'
+<pre><code>
+function transformOriginRotation() {
+  tween.seek(0).kill(); //reset
+  tween = TweenLite.to(ell, 1, {
+    rotation: 360,
+    transformOrigin: "50% 50%" //set the center   
+  });
+  tweenCode.innerHTML = 'TweenLite.to(".elli", 1, {rotation:360, transformOrigin:"50% 50%"});'
 };
-setInterval(transformOriginRotation, 600);</code></pre>
+setInterval(transformOriginRotation, 600);
+
+<code></pre>
 
 taaaaadaaaaa... there we have it! Rotating ellipses!! Please click on 'edit on codepen' to see the animation. 
 
