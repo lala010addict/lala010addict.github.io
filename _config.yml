@@ -122,7 +122,7 @@ pages_list:
   Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
-  Project: 'project'
+  Projects: 'projects'
 
 # Pagination path
 paginate_path: "blog/page:num"
