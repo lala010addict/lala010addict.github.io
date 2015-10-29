@@ -30,6 +30,10 @@
 
         {% include contact.html %}
 
+      {% elsif page.section-type == "project" %}
+
+        {% include project.html %}
+
       {% endif %}
 
     {% endfor %}
