@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "How I Prepared for Hack Reactor Interview"
-quote: "The key to success? Grit - Angela Lee Duckworth"
+title: "HOW I PREPARED FOR HACK REACTOR INTERVIEW"
 image: false
 video: false
 comments: true
