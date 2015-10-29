@@ -52,7 +52,7 @@ lines:			# You can add HTML Tags in the Text
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 30
 
 paginate: 5
 
