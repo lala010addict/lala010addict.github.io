@@ -103,8 +103,13 @@ social:
     url: "https://www.linkedin.com/in/jieyingpeng"
   - title: "twitter"
     url: "https://twitter.com/bunnynporkbelly"
+  - title: "magic"
+    url: "http://www.bunnyandporkbelly.com/"
+  - title: "envelope"
+    url: "mailto:jieyingpeng010@gmail.com"
   - title: "rss"
     url: "/feed.xml"
+
 
 ############
 # 404 page #
