@@ -7,14 +7,13 @@ url: "https://lala010addict.github.io"
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: 
+
 
 <<<<<<< HEAD
 google-tracking-id: "UA-68949592-1"
 =======
-baseurl: /personal-jekyll-theme
+# baseurl: /personal-jekyll-theme
 
-google-tracking-id: "UA-35880426-4"
 >>>>>>> b0a8b934d2d4d6bb02102a3916d3c3f8b8538a74
 
 # Forces https everywhere in your website, except when you serve it locally
