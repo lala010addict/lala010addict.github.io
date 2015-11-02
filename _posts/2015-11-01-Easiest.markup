@@ -1,0 +1,45 @@
+---
+layout: post
+section-type: post
+title: "Easiest Way to Create a GitHub Blog using Jekyll Theme"
+category: "TUTORIALS"
+tags: [ 'TUTORIALS' ]
+---
+
+I recently created this github blog using <a href="https://github.com/PanosSakkos/personal-jekyll-theme">PanosSakkos/personal-jekyll-theme.</a>
+
+The very first time I created my blog using a jekyll theme I actually followed <a href="https://help.github.com/articles/using-jekyll-with-pages/">github's instructions</a> to install jekyll and configure it. 
+
+I just realized all of that was pretty unnecessary, so I am going to show you how to setup a github blog in literally two mins.
+
+1. Choose a jekyll theme.
+	There are so many themes <a href="http://jekyllthemes.org/"> to choose from. </a> I am going to use <a href="https://github.com/PanosSakkos/personal-jekyll-theme">PanosSakkos/personal-jekyll-theme.</a>
+
+2. Go to the <a href="https://github.com/PanosSakkos/personal-jekyll-theme">theme's github page</a> and fork to your own github. 
+
+3. Go to your own fork and make sure that you are on the master branch.
+	Some themes only has a gh-pages branch. If you are on the master branch already, skip step 4 and click on the settings.
+	If you are on the gh-pages branch, go to step 4. 
+![](/blogimgs/easiest/1.png)
+
+4. Create a master branch.
+![](/blogimgs/easiest/6.png)
+
+5. In settings, change your respository name to USERNAME.github.io
+make sure the ursername matches exactly to your github username, otherwise it won't work!
+![](/blogimgs/easiest/2.png)
+
+6. Now go back to your fork, you should see USERNAME.github.io to be the new respository name.
+![](/blogimgs/easiest/3.png)
+
+7. Go to USERNAME.github.io in your browser, you can see your blog now!
+![](/blogimgs/easiest/5.png)
+
+8. Clone down the respository to your local computer and start to customize your blog.
+	You can start with _.config.yml file. After you are done, push back to your master branch like you normally would for any respository and your blog should be updated.
+![](/blogimgs/easiest/4.png)
+
+That's all!!!
+
+
+
