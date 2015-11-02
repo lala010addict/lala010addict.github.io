@@ -20,24 +20,24 @@ I just realized all of that was pretty unnecessary, so I am going to show you ho
 3. Go to your own fork and make sure that you are on the master branch.
 	Some themes only has a gh-pages branch. If you are on the master branch already, skip step 4 and click on the settings.
 	If you are on the gh-pages branch, go to step 4. 
-![](/blogimgs/easiest/1.png =400x)
+![](/blogimgs/easiest/1.png)
 
 4. Create a master branch.
-![](/blogimgs/easiest/6.png =400x300)
+![](/blogimgs/easiest/6.png)
 
 5. In settings, change your respository name to USERNAME.github.io
 make sure the ursername matches exactly to your github username, otherwise it won't work!
-![](/blogimgs/easiest/2.png =400x300)
+![](/blogimgs/easiest/2.png)
 
 6. Now go back to your fork, you should see USERNAME.github.io to be the new respository name.
-![](/blogimgs/easiest/3.png =400x300)
+![](/blogimgs/easiest/3.png)
 
 7. Go to USERNAME.github.io in your browser, you can see your blog now!
-![](/blogimgs/easiest/5.png =400x300)
+![](/blogimgs/easiest/5.png)
 
 8. Clone down the respository to your local computer and start to customize your blog.
 	You can start with _.config.yml file. After you are done, push back to your master branch like you normally would for any respository and your blog should be updated. Follow the README to update the rest of your blog!
-![](/blogimgs/easiest/4.png =400x300)
+![](/blogimgs/easiest/4.png)
 
 That's all!!!
 
