@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: "Easiest Way to Create a GitHub Blog using Jekyll Theme"
 category: "TUTORIALS"
-tags: [ 'TUTORIALS' ]
+tags: [ 'tutorials' ]
 ---
 
 I recently created this github blog using <a href="https://github.com/PanosSakkos/personal-jekyll-theme">PanosSakkos/personal-jekyll-theme.</a>

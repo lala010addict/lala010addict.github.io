@@ -4,6 +4,7 @@ title: "HOW I PREPARED FOR HACK REACTOR INTERVIEW"
 image: false
 video: false
 comments: true
+category: "Hack Reactor"
 tags: [ 'hackreactor' ]
 ---
 

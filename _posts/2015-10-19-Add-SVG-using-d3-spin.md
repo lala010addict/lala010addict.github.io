@@ -4,6 +4,7 @@ title: "Add SVG elements using D3.js and Spin multiple elements around their own
 image: false
 video: false
 comments: true
+category: "TUTORIALS"
 tags: [ 'tutorials' ]
 ---
 
