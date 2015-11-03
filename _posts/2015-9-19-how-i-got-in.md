@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "HOW I PREPARED FOR HACK REACTOR INTERVIEW"
-image: false
-video: false
-comments: true
+title: HOW I PREPARED FOR HACK REACTOR INTERVIEW
+section-type: post
 category: "Hack Reactor"
 tags: [ 'hackreactor' ]
 ---

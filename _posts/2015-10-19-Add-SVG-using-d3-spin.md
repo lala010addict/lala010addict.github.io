@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Add SVG elements using D3.js and Spin multiple elements around their own center with GSAP"
-image: false
-video: false
-comments: true
+title: Add SVG elements using D3.js and Spin multiple elements around their own center with GSAP
+section-type: post
 category: "TUTORIALS"
 tags: [ 'tutorials' ]
 ---
@@ -78,29 +76,3 @@ taaaaadaaaaa... there we have it! Rotating ellipses!! Please click on 'edit on c
 
 <p data-height="268" data-theme-id="0" data-slug-hash="epejav" data-default-tab="result" data-user="lala010addict" class='codepen'> <a href='http://codepen.io/lala010addict/pen/epejav/'></a>  <a href='http://codepen.io/lala010addict'></a> <a href='http://codepen.io'></a></p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
