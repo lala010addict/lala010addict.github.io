@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: <Title>
+title: Flickr API tutorial
 category: TUTORIALS
 tags: [ 'tutorials' ]
 ---
