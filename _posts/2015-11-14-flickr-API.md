@@ -14,7 +14,7 @@ Here is an example using the <a href="https://www.flickr.com/services/api/flickr
 
   var findPhotoSetByUser = "https://api.flickr.com/services/rest/" + // connect to the Flickr API
     "?method=flickr.photosets.getList" + // returns all the photosets belong to the user
-    "&api_key=fd661e881fcea083ba46a27d0065ac8d" + // your API key
+    "&api_key=YOURAPIKEY" + // your API key
     "&user_id=" + userId + // The user ID.
     "&privacy_filter=1" + // 1 signifies all public photos.
     "&per_page=100" + // limiting it to 100 photos.
