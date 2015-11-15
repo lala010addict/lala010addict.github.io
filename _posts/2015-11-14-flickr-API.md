@@ -7,7 +7,9 @@ tags: [ 'tutorials' ]
 ---
 I recently made a photo porfolio generator using Flickr API and Angular. The <a href = "https://www.flickr.com/services/api/">documentation of Flickr API </a>is very well written and easy to use. 
 
-here is an example using the <a href="https://www.flickr.com/services/api/flickr.photosets.getList.html"> flickr.photosets.getList</a> method: 
+You can get a Flickr API key from <a href ='https://www.flickr.com/services/apps/create/apply>here</a>.
+
+Here is an example using the <a href="https://www.flickr.com/services/api/flickr.photosets.getList.html"> flickr.photosets.getList</a> method: 
 <pre><code>
 
   var findPhotoSetByUser = "https://api.flickr.com/services/rest/" + // connect to the Flickr API
