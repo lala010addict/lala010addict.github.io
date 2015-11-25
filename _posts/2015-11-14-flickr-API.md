@@ -24,5 +24,5 @@ Here is an example using the <a href="https://www.flickr.com/services/api/flickr
 Instead of writing this yourself, you could also <a href = "https://www.flickr.com/services/api/explore/flickr.photosets.getList"> API Explorer : flickr.photosets.getList </a>to generate these code for you. All the API explorer links for each method can be found at the bottom of each method's page.
 
 
-<a href ='http://development.flickr-angular.divshot.io/'>Finished product</a>
+<a href ="https://myflickrapp.herokuapp.com/">Finished product</a>
 
