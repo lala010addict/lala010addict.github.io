@@ -6,7 +6,7 @@ category: TUTORIALS
 tags: [ 'tutorials' ]
 ---
 
-I was working on a TV show recommendation app that allows users to visualize the show ratings using D3.js. One of the features I worked on was the autocomplete feature for show names. The autocomplete feature searches in a movie database using <a href ="https://www.themoviedb.org/">a movie database API</a> and suggests show names as a user types in the name of the show they are trying to search for. 
+I was working on a TV show recommendation app that allows users to visualize the show ratings using D3.js. One of the features I worked on was the autocomplete dynamic search feature for show names. The autocomplete feature searches in a movie database using <a href ="https://www.themoviedb.org/">a movie database API</a> and suggests show names as a user types in the name of the show they are trying to search for. 
 
 ![](/blogimgs/autocomplete/autocomplete.jpg)
 
@@ -30,7 +30,7 @@ $(function(){
     }).data("uiAutocomplete")._renderItem = function( ul, item ) {
         return $("<li></li>")
             .data( "item.autocomplete", item )
-            .append( "<a>" + (item.img?"<img class='imdbImage' src='imdbImage.php?url=" + item.img + "' />":"") + "<span class='imdbTitle'>" + item.label + "</span>" + (item.cast?"<br /><span class='imdbCast'>" + item.cast + "</span>":"") + "<div class='clear'></div></a>" )
+            .append( "<a><img width='45' height='68' src=" + ImgPath + "w92" + item.poster_path + "> <strong>" + item.name + "</strong>  " + item.first_air_date + " </a>" )
             .appendTo( ul );
     };
 });
@@ -92,10 +92,11 @@ angular.module('app.autocomplete', [])
 
 There are couple more things you also need to look out for:
 
-    1. Make sure the order you load Angular and jQuery is correct. You need to load jQuery before Angular on your index.html, otherwise, in this case it would give you an error such as 'elem.autocomplete is not a function' because it thinks .autocomplete is a part of angular.
+1. Make sure the order you load Angular and jQuery is correct. You need to load jQuery before Angular on your index.html, otherwise, in this case it would give you an error such as 'elem.autocomplete is not a function' because it thinks .autocomplete is a part of angular.
     
-    2. Make sure you are requesting JSONP instead of jus JSON because JSON would give you an 'Method JSON is not allowed by Access-Control-Allow-Methods in preflight response.' error. And make sure you are adding '&callback=JSON_CALLBACK' when you are using JSONP method :)
+2. Make sure you are requesting JSONP instead of jus JSON because JSON would give you an 'Method JSON is not allowed by Access-Control-Allow-Methods in preflight response.' error. And make sure you are adding '&callback=JSON_CALLBACK' when you are using JSONP method :)
 
+<a href= 'http://shouldwewatchthis.herokuapp.com/'>Check out our TV Show ratings visualizer app with this dynamic search feature</a>
 
 
 
