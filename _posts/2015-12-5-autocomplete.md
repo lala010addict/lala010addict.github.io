@@ -93,8 +93,10 @@ angular.module('app.autocomplete', [])
 There are couple more things you also need to look out for:
 
 1. Make sure the order you load Angular and jQuery is correct. You need to load jQuery before Angular on your index.html, otherwise, in this case it would give you an error such as 'elem.autocomplete is not a function' because it thinks .autocomplete is a part of angular.
+
+2. The version of jQuery UI makes a difference. The newer of jQuery UI did not work for me. I had to use version 1.10.2.
     
-2. Make sure you are requesting JSONP instead of jus JSON because JSON would give you an 'Method JSON is not allowed by Access-Control-Allow-Methods in preflight response.' error. And make sure you are adding '&callback=JSON_CALLBACK' when you are using JSONP method :)
+3. Make sure you are requesting JSONP instead of jus JSON because JSON would give you an 'Method JSON is not allowed by Access-Control-Allow-Methods in preflight response.' error. And make sure you are adding '&callback=JSON_CALLBACK' when you are using JSONP method :)
 
 <a href= 'http://shouldwewatchthis.herokuapp.com/'>Check out our TV Show ratings visualizer app with this dynamic search feature</a>
 
