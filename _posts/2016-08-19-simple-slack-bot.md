@@ -20,7 +20,7 @@ Recently, we officially switched from Hipchat to Slack at work. I wanted to make
 
 ### Make the slack bot
 
-	<pre><code>
+	```javascript
 		var RtmClient = require('@slack/client').RtmClient;
 
 		var _ = require('lodash')
@@ -71,7 +71,7 @@ Recently, we officially switched from Hipchat to Slack at work. I wanted to make
 
 		});
 
-	</code></pre>
+	```
 
 ### Run the bot
 
