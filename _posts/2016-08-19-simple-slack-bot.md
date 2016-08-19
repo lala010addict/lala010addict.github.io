@@ -81,8 +81,8 @@ Recently, we officially switched from Hipchat to Slack at work. I wanted to make
 
 ## Results
 
-taaadaaaa
+	taaadaaaa
 
-![](/blogimgs/slackbot/slackbot.png)
+	![](/blogimgs/slackbot/slackbot.png)
 
 
