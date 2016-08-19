@@ -8,17 +8,17 @@ tags: [ 'tutorials' ]
 
 Recently, we officially switched from Hipchat to Slack at work. I wanted to make a simple slack bot that can help me to choose whom to pick on for PR reviews. I made a randomizer that takes in a list of names and outputs two names.
 
-1. Set up a bot user
+## Set up a bot user
 	1. Go to <a href="https://my.slack.com/services/new/bot>https://my.slack.com/services/new/bot</a> and setup a bot user on slack. 
 	2. Generate an API token.
 
-2. Set up the node server
+## Set up the node server
 	1. Make a new folder and cd into the folder
 	2. `npm init`
 	3. Install slack/client by doing `npm install @slack/client --save`
 	4. Create a new file named app.js
 
-3. Make the slack bot
+## Make the slack bot
 
 <pre><code>
 var RtmClient = require('@slack/client').RtmClient;
@@ -73,8 +73,8 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
 </code></pre>
 
-4. Run the bot
-	nodemon app.js (if you have nodemon installed)
+## Run the bot
+	`nodemon app.js` (if you have nodemon installed) or `node app.js`
 
 	The bot will work as long as you have it running it locally or deployed somewhere.
 
