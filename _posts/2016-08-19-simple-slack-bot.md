@@ -39,7 +39,6 @@ rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, function(rtmStartData) {
 
 
 var RTM_EVENTS = require('@slack/client').RTM_EVENTS;
-var RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 
 // Listens to all `message` events from the team
 rtm.on(RTM_EVENTS.MESSAGE, function(message) {
@@ -48,6 +47,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
 
   var str = message.text;
+  // <@U22QZJNKA> is the my bot id. I am checking to see if someone @ my bot
   var n = str.includes("<@U22QZJNKA>")
 
   var array = str.split(', ');
