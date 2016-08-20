@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Build a Simple Custom Slack Bot using @slack/client
+title: Build a Simple Custom Slack Bot using @slack/client and Node
 category: TUTORIALS
 tags: [ 'tutorials' ]
 ---
