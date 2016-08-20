@@ -9,7 +9,7 @@ tags: [ 'tutorials' ]
 Recently, we officially switched from Hipchat to Slack at work. I wanted to make a simple slack bot that can help me to choose whom to pick on for PR reviews. I made a randomizer that takes in a list of names and outputs two names.
 
 Set up a bot user
-	1. Go to <a href="https://my.slack.com/services/new/bot>https://my.slack.com/services/new/bot</a> and setup a bot user on slack. 
+	1. Go to[https://my.slack.com/services/new/bot][https://my.slack.com/services/new/bot]
 	2. Generate an API token.
 
 Set up the node server
