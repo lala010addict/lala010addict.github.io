@@ -20,11 +20,11 @@ Recently, we officially switched from Hipchat to Slack at work. I wanted to make
 
 ### Make the slack bot
 <pre><code>
+var token = 'YOUR SLACK BOT API KEY' || '';
+
 var RtmClient = require('@slack/client').RtmClient;
 
 var _ = require('lodash')
-
-var token = 'YOUR SLACK BOT API KEY' || '';
 
 var rtm = new RtmClient(token, { logLevel: 'debug' });
 rtm.start();
@@ -53,8 +53,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
   var splicedArray = array.splice(1);
   var lucky;
-  var msg;
-
+  var msg
 
 
   if (splicedArray.length > 1) {
@@ -63,11 +62,12 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
   }
 
+
   var params = {
     text: msg,
     channel_id: 'G20TSFYAX',
-  }
 
+  }
   if (n) {
     // This will send the message to the channel identified by id 'G20TSFYAX'
     if (lucky) {
@@ -80,9 +80,11 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
         // optionally, you can supply a callback to execute once the message has been sent
       });
     }
+
   }
 
 });
+
 
 </code></pre>
 
