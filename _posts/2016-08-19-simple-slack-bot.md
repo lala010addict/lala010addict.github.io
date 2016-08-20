@@ -53,6 +53,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
   var splicedArray = array.splice(1);
   var lucky;
+  var msg;
 
 
 
