@@ -73,10 +73,10 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
 
 ### Run the bot
 `nodemon app.js` (if you have nodemon installed) or `node app.js`
+
 The bot will work as long as you have it running it locally or deployed somewhere.
 
 ### Results
-taaadaaaa
 ![](/blogimgs/slackbot/slackbot.png)
 
 
