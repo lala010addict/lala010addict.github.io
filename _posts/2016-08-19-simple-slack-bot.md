@@ -59,13 +59,13 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
   if (splicedArray.length > 1) {
     lucky = _.sampleSize(splicedArray, 2)
     msg = ':laser_cat: meow meow :thinking_face: ??? ' + lucky[0] + ' & ' + lucky[1] + ' today is your lucky day RUFFF RUFFFF :doge:!! :partyparrot: :beers::dealwithitparrot::hypnotoad: '
-
+    //get rid of the emojis if you don't have them.
   }
 
 
   var params = {
     text: msg,
-    channel_id: 'G20TSFYAX',
+    channel_id: 'G20TSFYAX', //My channel id. You should switch to whatever channel id you want the bot to be in.
 
   }
   if (n) {
