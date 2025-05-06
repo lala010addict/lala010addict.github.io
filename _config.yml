@@ -71,8 +71,14 @@ disqus-shortname: "jieyingpeng"
 ###############
 
 events:
+  - image: "/img/career/ti-logo.svg"
+    date: "2018-2025"
+    description: "Full-Stack Senior Software Engineer @ Thought Industries"
+  - image: "/img/career/Intelity-Logo.svg"
+    date: "2016"
+    description: "Full-Stack Software Engineer @ Keypr/Intelity"
   - image: "/img/career/hr.png"
-    date: "2015"
+    date: "201"
     description: "Advanced Computer Software Engineering"
   - image: "/img/career/state-street-logo.jpg"
     date: "July 2011 - July 2015"
@@ -91,7 +97,7 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "jieyingpeng010@gmail.com"
+email: "lala010peng@gmail.com"
 
 ##################
 # Social Buttons #
@@ -104,14 +110,10 @@ social:
     url: "https://www.flickr.com/photos/lala010"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/jieyingpeng"
-  - title: "twitter"
-    url: "https://twitter.com/bunnynporkbelly"
-  - title: "cutlery"
-    url: "http://www.bunnyandporkbelly.com/"
   - title: "plane"
     url: "https://www.tripit.com/people/lala010addict"
   - title: "envelope"
-    url: "mailto:jieyingpeng010@gmail.com"
+    url: "mailto:lala010peng@gmail.com"
   - title: "rss"
     url: "/feed.xml"
 
