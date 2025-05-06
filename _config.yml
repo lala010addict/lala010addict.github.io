@@ -71,10 +71,10 @@ disqus-shortname: "jieyingpeng"
 ###############
 
 events:
-  - image: "/img/career/ti"
+  - image: "/img/career/ti.jpg"
     date: "2018-2025"
     description: "Full-Stack Senior Software Engineer @ Thought Industries"
-  - image: "/img/career/keypr"
+  - image: "/img/career/keypr.jpg"
     date: "2016"
     description: "Full-Stack Software Engineer @ Keypr/Intelity"
   - image: "/img/career/hr.png"
